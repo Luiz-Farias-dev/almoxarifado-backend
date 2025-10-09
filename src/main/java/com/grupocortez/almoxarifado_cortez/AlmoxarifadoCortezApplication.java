@@ -9,7 +9,7 @@ public class AlmoxarifadoCortezApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AlmoxarifadoCortezApplication.class, args);
 
-		System.out.println("Hello World");
+		System.out.println("Servidor pronto para receber requisições");
 	}
 
 }

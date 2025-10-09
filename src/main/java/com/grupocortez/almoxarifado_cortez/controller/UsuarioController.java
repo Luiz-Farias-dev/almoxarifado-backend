@@ -13,12 +13,12 @@ public class UsuarioController {
 
     private UsuarioService usuarioService;
 
-    public UsuarioController(UsuarioService usuarioService){
-        this.usuarioService = usuarioService;
-    }
-    //Continuar o postmapping de usuarios, pesquisar o que é ResponseEntity<> porque ela é importante e como deveria usu-la para ser o return da função de post
-    @PostMapping("/usuario")
-    public Usuario criarUsuario(@RequestBody Usuario usuario){
-        usuarioService.criarUsuario(usuario);
-    }
+//    public UsuarioController(UsuarioService usuarioService){
+//        this.usuarioService = usuarioService;
+//    }
+//    //Continuar o postmapping de usuarios, pesquisar o que é ResponseEntity<> porque ela é importante e como deveria usu-la para ser o return da função de post
+//    @PostMapping("/usuario")
+//    public Usuario criarUsuario(@RequestBody Usuario usuario){
+//        usuarioService.criarUsuario(usuario);
+//    }
 }
