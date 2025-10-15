@@ -13,8 +13,8 @@ public class ProdutoTesteService {
     @Autowired
     private ProdutoTesteRepository produtoTesteRepo;
 
-    public void criarProduto(ProdutoTeste produto) {
-        produtoTesteRepo.save(produto);
+    public ProdutoTeste criarProduto(ProdutoTeste produto) {
+       return produtoTesteRepo.save(produto);
     }
 
     public ProdutoTeste pesquisarProdutoPorId(Integer id) {
